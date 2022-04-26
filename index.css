@@ -1,6 +1,7 @@
 *{
     margin: 0;
 }
+
 nav > a
 {
     text-decoration: none;
@@ -19,6 +20,9 @@ nav > a:hover
 header{
     padding: 10px;
     background-color: rgb(52, 180, 131);
+}
+header a{
+    color: white;
 }
 img
 {
@@ -94,10 +98,6 @@ header nav{
     border: solid white 5px;
     border-radius: 10px;
     width: 500px;
-    height: 500px;
-}
-
-.month h2{
 }
 
 .month table{
@@ -113,7 +113,7 @@ footer{
     padding: 10px;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(25, 38, 54);
 }
 
 
