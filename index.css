@@ -21,16 +21,13 @@ header{
     padding: 10px;
     background-color: rgb(52, 180, 131);
 }
-header a{
-    color: white;
-}
 img
 {
     position: relative;
     top: 5px;
 }
-header h1{
-    color: whitesmoke;
+header a{
+    color: white;
 }
 header nav{
     text-align: right;
