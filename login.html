@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Admin</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body  onload="rafraichir()">
+    <header>
+        <h1>Coding Bank <span><img src="images/piggy-bank.svg" alt=""></span></h1>
+        
+        <nav>
+            <a href="index.html" id="Login">Accueil</a>
+        </nav>
+    </header>
+    <div class="tableau">
+        <table id="tab">
+            <caption>PDG : Roméo KAKPO</caption>
+            <tr>
+                <th>Date</th>
+                <th>Prix</th>
+            </tr>
+        </table>
+        <form name="form1" class="form-control">    
+            <label class="label" for="ediDate">Date :</label>
+            <input type="text" name="ediDate" class="ID_edi" placeholder="jj/mm/aaaa" size="5"> <br><br>
+            <label class="label" for="ediPrix">Prix :</label>
+            <input type="text" name="ediPrix" class="ID_edi" size="5"> <br><br>
+            <input type="button" id="but_ajouter" name="but_Ajouter" value="Ajouter" onclick="ajouter(this.form);">
+        </form>
+    </div>
+
+   <!--   <div class="tableau">
+        <table class="tab">
+            <caption>PDG : Roméo KAKPO</caption>
+            <tr>
+                <th>Date</th>
+                <th>Prix</th>
+            </tr>
+        </table>
+     
+    </div>
+    <div class="tableau">
+        <table class="tab">
+            <caption>PDG : Roméo KAKPO</caption>
+            <tr>
+                <th>Date</th>
+                <th>Prix</th>
+            </tr>
+        </table>
+     
+    </div>
+    <div class="tableau">
+        <table class="tab">
+            <caption>PDG : Roméo KAKPO</caption>
+            <tr>
+                <th>Date</th>
+                <th>Prix</th>
+            </tr>
+        </table>
+     
+    </div>
+    <div class="tableau">
+        <table class="tab">
+            <caption>PDG : Roméo KAKPO</caption>
+            <tr>
+                <th>Date</th>
+                <th>Prix</th>
+            </tr>
+        </table>
+     
+    </div>-->
+</body>
+</html>

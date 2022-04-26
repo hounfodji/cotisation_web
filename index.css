@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+nav > a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+nav > a:hover
+{
+    font-size: 23px;
+    color: rgb(25, 38, 54);
+}
+header{
+    padding: 10px;
+    background-color: rgb(61, 233, 167);
+}
+img
+{
+    position: relative;
+    top: 5px;
+}
+header h1{
+    color: whitesmoke;
+}
+header nav{
+    text-align: right;
+}
+.container{
+    padding: 30px;
+    background-color: gray;
+}
+.month{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(25, 38, 54);
+    color: whitesmoke;
+    margin: auto;
+    border: solid white 5px;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+}.
+.month h2{
+}
+.month table{
+    margin: auto;
+    align: center;
+    width: 450px;
+    height: 300px;
+}
+th{
+    text-decoration: underline;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+/*----------------LOGIN-----------------------*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+#tab
+{
+    width: 300px;
+    margin: 0px auto;  
+    margin-bottom: 100px;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+    text-align: center;
+}
+.tableau
+{
+    
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background: rgb(25, 38, 54);
+    border: solid white 5px;
+    border-radius: 10px;
+}
+caption
+{
+    color: rgb(61, 233, 167);
+    margin-top: 30px;
+}
+#tab th
+{
+    background: gray;
+    color:white;
+}
+.form-control
+{
+    margin: 0 auto;
+    width: 200px;
+}
+.form-control label
+{
+    color: whitesmoke;
+}
