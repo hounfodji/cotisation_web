@@ -6,8 +6,8 @@ function Todo(date,prix)
 
 Todo.prototype.afficher=function()
 {
-   document.getElementById('tab').innerHTML += "<tr> <td>" + this.date + "</td> <td>" + this.prix + "</td> </tr>";
-
+   document.getElementById('id_date')/*.innerHTML +*/= /*"<tr> <td>" +*/ this.date /*+ "</td> <td>" + this.prix + "</td> </tr>"*/;
+   document.getElementById('id_prix') =  this.prix;
 }
 
 function ajouter(form1)
