@@ -1,3 +1,4 @@
+/**********************EN-TÊTE************************/
 *{
     margin: 0;
 }
@@ -33,7 +34,7 @@ header nav{
     text-align: right;
 }
 
-/***Page d'Acceuil***/
+/****************************Page d'Acceuil**********************/
 .form-container{
     display: flex;
     flex-direction: row;
@@ -80,7 +81,7 @@ header nav{
     cursor: pointer;
 }
 
-/********************/
+/**************************INDEX****************************/
 
 .container{
     padding: 30px;
@@ -114,7 +115,7 @@ footer{
 }
 
 
-/*----------------LOGIN-----------------------*/
+/*----------------ADMIN-----------------------*/
 
 body
 {
@@ -125,18 +126,13 @@ body
 #tab
 {
 
-    margin: 0;
+    margin: 50px 0 0 0 ;
     padding: 0;
     width: 800px;
     margin-bottom: 100px;
     color: whitesmoke;
     background: rgb(25, 38, 54);
     padding: 20px;
-}
-caption
-{
-    color: rgb(61, 233, 167);
-    margin: 30px 0;
 }
 #tab th
 {
@@ -161,4 +157,52 @@ caption
 #tab tr:nth-child(2n+1):not(tr:first-child)
 {
     background: rgb(20, 33, 49);
+}
+
+/********************ADMIN_FORMULAIRE*****************************/
+.form-containerA{
+   /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;*/
+    margin: 100px;
+    height: 85vh;
+    color: white;
+}
+.formulaireA{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgb(25, 38, 54);
+    padding: 2%;
+    /*border-radius: 8px;*/
+    box-shadow: 2px 2px 15px white;
+}
+.formulaireA h2{
+    margin-bottom: 10px;
+}
+.formulaireA form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaireA form label{
+    font-weight: bold;
+    padding: 5px 0;
+}
+.formulaireA .input{
+    height: 30px;
+    padding: 1% 3%;
+    margin-bottom: 5px;
+    outline: none;
+}
+.submit{
+    padding: 5px;
+    margin-top: 15px;
+    height: 40px;
+    background-color: rgb(52, 180, 131);
+    color: white;
+    border: none;
+    font-size: 1.05rem;
+    cursor: pointer;
 }
