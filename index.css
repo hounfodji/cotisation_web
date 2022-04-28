@@ -99,7 +99,7 @@ header nav{
 
 .month table{
     margin: auto;
-    align: center;
+    text-align: center;
     width: 450px;
     height: 300px;
 }
