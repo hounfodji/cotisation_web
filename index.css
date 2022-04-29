@@ -138,7 +138,7 @@ body
 {
     text-align: left;
     text-decoration: none;
-   
+
     border-collapse: collapse;
 }
 #tab tr:first-child
@@ -200,9 +200,20 @@ body
     padding: 5px;
     margin-top: 15px;
     height: 40px;
+    border-radius: 5px;
     background-color: rgb(52, 180, 131);
     color: white;
     border: none;
     font-size: 1.05rem;
     cursor: pointer;
+    /*box-shadow: 7px 6px28px 1px rgba(0,0,0,0.24);*/
+    outline: none;
+    transition: 0.2s all;
+}
+.submit:hover{
+    background-color: green;
+}
+.submit:active{
+    transform: scale(0.98);
+    /*box-shadow: 3px 2px 22px 1px rgba(0,0,0,0.24);*/
 }
