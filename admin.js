@@ -8,7 +8,10 @@ function opt_sel(){   // permet de détecter quelle est l'option de select qui e
     }
 }
 function submit(n){
+    var tab = ['0','1','2','3','4','5','6','7','8','9','.'];
     var price = document.getElementById("price").value, date = document.getElementById("date").value;
-    document.getElementById(`${2*n+1}`).innerHTML = date;
-    document.getElementById(`${2*n+2}`).innerHTML = price;
+    if(price.split("").filter(x => tab.includes(x) == false).length === 0){
+        document.getElementById(`${2*n+1}`).innerHTML = date;
+        document.getElementById(`${2*n+2}`).innerHTML = price;
+    }
 }
