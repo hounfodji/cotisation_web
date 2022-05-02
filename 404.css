@@ -1,21 +1,25 @@
-#number
-{
-    font-size: 180px;
-    margin-top: 105px;
-    margin-bottom: 0px;
-    text-align: center;
-  
+body{
+    background-color: rgb(25, 38, 54);
+    color: rgb(52, 180, 131);
+    height: 90vh;
 }
-#block
-{
-    
-}
-#page
-{
 
-    font-size: 35px;
-    color: rgba(211, 211, 211, 0.8);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin-top: 0px;
+.block{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block p{
+    margin: 0;    
+}
+
+p:first-child{
+    font-size: 8rem;
+}
+
+p + p{
+    color: rgb(156, 204, 186);
 }
