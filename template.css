@@ -41,7 +41,7 @@ nav > a
     padding: 10px;
 }
 
-nav > a:hover
+nav > a:hover, .active
 {
     color: rgb(25, 38, 54);;
 }
@@ -56,7 +56,7 @@ nav > a:hover
     width: 70%;
 }
 
-.solde{
+.solde, .dette{
     height: 50px;
     line-height: 50px;
     padding-right: 25px;
@@ -68,7 +68,11 @@ nav > a:hover
     width: 100%;
 }
 
-.solde img{
+.dette{
+    color: orange;
+}
+
+.solde img, .dette img{
     width: 25px;
     height: 25px;
     margin-top: 12px;
@@ -112,7 +116,8 @@ nav > a:hover
 .actu-content{
     overflow-y: scroll;
     padding: 10px;
-    min-height: calc(84.5vh - 50px);
+    height: calc(84.5vh - 50px);
+    background-color: rgba(25, 38, 54, 0.2);;
 }
 
 .actu{
@@ -130,7 +135,7 @@ nav > a:hover
 }
 .next-link a{
     
-    color: rgb(25, 38, 54);
+    color: whitesmoke;
 }
 
 /* TABLEAU DE COMPTE RENDU */
